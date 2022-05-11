@@ -11,8 +11,6 @@
     margin: 250px auto;
     width: 1200px;
     height: 420px;
-    background-color: grey;
-    box-sizing: border-box;
 }
 .main-logo{
 text-align: center;
@@ -23,12 +21,14 @@ padding-top: 120px;
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
     font-size: 20px;
-    letter-spacing: 0.5;
+    letter-spacing: 1px;
     padding-top: 50px;
+    font-weight: 400;
 }
 .separator-line{
     text-align: center;
-    padding-top: 55px;
+    padding-top: 3px;
+    overflow: auto;
 }
 .logos{
     display: flex;
@@ -36,7 +36,7 @@ padding-top: 120px;
     justify-content: center;
     width: 150px;
     height: 20px;
-    margin: 21px auto;
+    margin: 21px auto 0;
 }
 .logos__img{
     padding-right: 30px;
@@ -47,6 +47,11 @@ padding-top: 120px;
 .copyright{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
     color: #ffffff;
-    padding-top: 89px;
+    font-size: 15px;
+    padding-top: 86px;
+}
+.copyright__aqua{
+    color: #19c8fa;
 }
