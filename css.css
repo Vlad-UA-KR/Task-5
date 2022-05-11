@@ -8,9 +8,14 @@
     background-color: #121116;
 }
 .footer{
-    margin: 250px auto;
     width: 1200px;
     height: 420px;
+    background-color: gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 .main-logo{
 text-align: center;
@@ -28,7 +33,6 @@ padding-top: 120px;
 .separator-line{
     text-align: center;
     padding-top: 3px;
-    overflow: auto;
 }
 .logos{
     display: flex;
